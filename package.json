@@ -1,0 +1,30 @@
+{
+  "name": "deepdup",
+  "version": "0.1.0",
+  "description": "Deep clone object",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -r should -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LestaD/deepdup.git"
+  },
+  "keywords": [
+    "clone",
+    "object",
+    "deep",
+    "duplicate"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/deepdup/issues"
+  },
+  "homepage": "https://github.com/LestaD/deepdup#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^8.4.0",
+    "supertest": "^1.2.0"
+  }
+}
